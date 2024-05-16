@@ -27,8 +27,8 @@ class DataTransformation:
             logging.info('Data Transformation initated')
 
             #Defining the columns should be odinal_encoded and which should be scaled
-            categorical_cols = ['cut', 'color', 'clarity']
             numerical_cols = ['carat','depth','table','x','y','z']
+            categorical_cols = ['cut', 'color', 'clarity']
 
             #defining custom ranking for each odinal variable
             cut_categories = ['Fair','Good','Very Good','Premium','Ideal']
